@@ -6,6 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    
+    INSERISCI
+    <form action="inserisci.php" method="get">
+        Nome:<br>
+        <input type="text" name="nome"><br>
+        Anno di Nascita:<br>
+        <input type="text" name="anno"><br>
+        Nazionalita:<br>
+        <input type="text" name="nazione"><br>
+        <input type="submit">
+    </form>
+    <br>
+    AGGIORNA
+    <form action="aggiorna.php" method="get">
+        ID Recensione:<br>
+        <input type="number" name="recensione"><br>
+        Voto:<br>
+        <input type="number" name="voto" min="1" max="5"><br>
+        <input type="submit">
+    </form>
+    <br>
+    ELIMINA
+    <form action="elimina.php" method="get">
+        Codice Proiezione:<br>
+        <input type="number" name="codice"><br>
+        <input type="submit">
+    </form>
 </body>
 </html>
